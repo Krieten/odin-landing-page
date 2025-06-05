@@ -180,3 +180,11 @@ body {
     padding: 5px;
     margin: 25px;
 }
+
+/* Footer */
+
+.footer {
+    background-color: #1f2937;
+    color: #F9FAF8;
+    text-align: center;
+}
