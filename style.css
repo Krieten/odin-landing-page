@@ -10,10 +10,13 @@ body {
 .header,
 .container1,
 .container2,
-.container3,
 .container4,
 .footer {
     padding: 0 128px;
+}
+
+.container2{
+    padding: 0 192px;
 }
 
 /* Header */
@@ -115,11 +118,11 @@ body {
     aspect-ratio: 1;
 }
 
-/* COntainer 3 */
+/* Container 3 */
 
 .container3 {
     background-color: #E5E7EB;
-    padding: 64px 128px;
+    padding: 64px 192px;
 }
 
 .quote {
@@ -135,4 +138,45 @@ body {
     font-weight: 800;
     font-size: 24px; 
     margin: 0;
+}
+
+/* Container4 */
+
+.container4 {
+    padding: 64px 128px;
+}
+
+.content4 {
+    display: flex;
+    background-color: #3882f6;
+    padding: 32px 64px;
+    justify-content: space-between;
+}
+
+.call-to-action {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #F9FAF8;
+}
+
+.heading3 {
+    font-size: 24px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.call-to-action p {
+    margin: 0;
+}
+
+.content4 button {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-color: #F9FAF8;
+    border-style: solid;
+    border-radius: 5px;
+    width: 100px;
+    padding: 5px;
+    margin: 25px;
 }
